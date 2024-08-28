@@ -23,6 +23,7 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor3), var(--cor4), var(--cor5), var(--cor6));
+    padding: 10px;
     padding-top: 30px;
     min-height: 250px;
     text-align: center;
@@ -32,11 +33,11 @@ header {
 header > h1 {
     color: #ffffff;
     font-family: "poppins-medium", sans-serif;
-    font-size: 84px;
+    font-size: 70px;
     line-height: 1.071;
     max-width: 900px;
     margin-top: 0;
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.2em;
     margin-left: auto;
     margin-right: auto;
     text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -44,20 +45,20 @@ header > h1 {
 
 header > h5 {
     font-family: "poppins-bold", sans-serif;
-    font-size: 2.3rem;
+    font-size: 2em;
     line-height: 1.565;
     margin-bottom: 0;
     text-transform: uppercase;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2em;
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
 header > p {
     font-family: 'Lora-regular', sans-serif;
-    font-size: 1.7rem;
-    line-height: 2.4rem;
+    font-size: 1.5em;
+    line-height: 2.1em;
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.07em;
     color: #ffffff;
     text-shadow: 0 0 6px #00000080;
 }
@@ -71,10 +72,72 @@ header > p::after {
 }
 
 section#about {
-    background-color: bisque;
+    padding: 15px;
+    background-color: white;
+    min-height: 350px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section#about > h1 {
+    color: #002b33;
+    font-family: "poppins-semibold", sans-serif;
+    font-size: 3em;
+    line-height: 1.25;
+    max-width: 500px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 1.2rem;
+    margin-left: auto;
+}
+
+section#about > h5 {
+    color: #00accc;
+    font-family: "poppins-bold", sans-serif;
+    font-size: 1.4em;
+    margin-top: 100px;
+}
+
+section#about > p {
+    display: inline-block;
+    font-family: "lora-regular", serif;
+    font-size: 1.5em;
+    max-width: 500px;
+    color: #888888;
+    text-align: justify;
+    margin: auto;
+    padding-top: 10px;
+}
+
+section#about > img {
+    margin-right: 40px;
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+section#habilidades {
+    background-color: #ebebeb;
+    padding: 10px;
+    padding-top: 30px;
+    min-height: 250px;
+    text-align: center;
     min-height: 350px;
 }
 
-section#about > a {
-    text-decoration: none;
+section#habilidades > h1 {
+    color: #002b33;
+    font-family: "poppins-semibold", sans-serif;
+    font-size: 3em;
+    line-height: 1.25;
+    max-width: 900px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 1.2rem;
+    margin-left: auto;
+}
+
+section#habilidades > h5 {
+    color: #00accc;
+    font-family: "poppins-bold", sans-serif;
+    font-size: 1.4em;
 }
