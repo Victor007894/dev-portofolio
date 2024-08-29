@@ -22,16 +22,15 @@ body {
 }
 
 header {
-    background-image: url(imagens/fundo2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
     padding: 10px;
     padding-top: 100px;
     min-height: 400px;
     max-height: 400px;
     text-align: center;
-    color: white;
+    background: #002b33 url(imagens/fundo2.jpg) center center no-repeat;
+    background-size: cover;
+    /* fundo fixo
+    background-attachment: fixed; */
 }
 
 header > h1 {
