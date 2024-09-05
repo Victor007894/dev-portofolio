@@ -76,23 +76,6 @@ section#sobre div {
     display: inline-block;
 }
 
-div#fullstack {
-    margin-right: -4px;
-    width: 799.5px;
-    height: 537px;
-    background: url(imagens/fundo2.jpg) left center no-repeat;
-    background-size: cover;
-    transition: 0.5s;
-}
-
-div#software {
-    width: 799.5px;
-    height: 537px;
-    background: url(imagens/fundo2.jpg) right center no-repeat;
-    background-size: cover;
-    transition: 0.5s;
-}
-
 #sobre:hover .areas:nth-child(1) {
     width: 899.5px;
 }
