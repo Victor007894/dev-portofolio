@@ -58,7 +58,7 @@ header::after{
     content: "";
     display: block;
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 0.09rem;
     margin-top: 38px;
     background-image: linear-gradient(90deg, #8257E6 0%, #A40EE4 92.32%);
