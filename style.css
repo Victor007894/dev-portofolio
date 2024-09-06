@@ -76,6 +76,8 @@ section#sobre div {
     display: inline-block;
 }
 
+
+
 #sobre:hover .areas:nth-child(1) {
     width: 899.5px;
 }

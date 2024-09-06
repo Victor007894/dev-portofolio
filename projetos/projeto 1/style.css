@@ -56,13 +56,14 @@ nav {
 }
 
 nav > a {
+    display: inline-block;
     color: white;
     padding: 10px;
     text-decoration: none;
     font-weight: 300;
     transition-duration: .7s;
     border-radius: 5px;
-    margin-bottom: 500px;
+    margin-bottom: 5px;
 }
 
 nav > a:hover {
